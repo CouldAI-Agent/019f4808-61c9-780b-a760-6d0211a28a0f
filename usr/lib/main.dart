@@ -10,7 +10,7 @@ class ECommerceApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'MJ Shop',
+      title: 'MJ AI Assistant',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
@@ -45,7 +45,7 @@ class _ShopHomePageState extends State<ShopHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('MJ Shop', style: TextStyle(fontWeight: FontWeight.bold)),
+        title: const Text('MJ AI Assistant', style: TextStyle(fontWeight: FontWeight.bold)),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         actions: [
           IconButton(
